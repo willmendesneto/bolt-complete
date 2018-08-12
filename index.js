@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const boltComplete = require('./complete');
 
-tabtab.start();
+boltComplete.start();

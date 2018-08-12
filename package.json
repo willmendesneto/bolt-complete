@@ -4,7 +4,7 @@
   "description": "Bolt command completion",
   "main": "index.js",
   "scripts": {
-    "postinstall": "tabtab install --name bolt --completer bolt-complete"
+    "install": "tabtab install --name bolt --auto --completer bolt-complete"
   },
   "bin": {
     "bolt-complete": "index.js"
