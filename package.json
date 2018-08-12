@@ -1,0 +1,19 @@
+{
+  "name": "bolt-complete",
+  "version": "1.0.0",
+  "description": "Bolt command completion",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "tabtab install --name bolt --completer bolt-complete",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "bolt-complete": "index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tabtab": "^2.2.2"
+  }
+}
