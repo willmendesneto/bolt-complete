@@ -2,11 +2,11 @@
 
 A [tabtab]() plugin to implement bash / zsh / fish completion to [Bolt][]
 
-![bolt-complete](http://i.imgur.com/KH3VQWU.png)
-
 ## Install
 
-    npm install bolt-complete -g
+```bash
+npm install bolt-complete -g
+```
 
 On install, you'll be prompted for an install location for the shell completion
 script:
@@ -28,11 +28,8 @@ Depending on your shell:
 **zsh**
 ![zsh][]
 
-[bolt]: http://bolt.io
+[bolt]: http://boltpkg.com
 [tabtab]: https://github.com/mklabs/node-tabtab
-[bash]: https://raw.githubusercontent.com/mklabs/node-tabtab/master/docs/img/bash-install.png
-[zsh]: https://raw.githubusercontent.com/mklabs/node-tabtab/master/docs/img/zsh-install.png
-[fish]: https://raw.githubusercontent.com/mklabs/node-tabtab/master/docs/img/fish-install.png
 
 ---
 
