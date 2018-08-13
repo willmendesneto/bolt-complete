@@ -70,6 +70,16 @@ $ choco install nodejs.install -version v8.11.1
 - `npm run test`: Running unit tests using MochaJS. You can run the tests in watch mode running the command passing `-w`. EX: `npm run test -- -w`
 
 
+## Publishing the package
+
+This project is using `np` as publisher helper. So there are some automated tasks that will be triggered when `np` runs:
+
+- Run the tests, lint and `.editorconfig` configuration and check if the code coverage are on the expected values;
+- Check if the changelog has the required updates to automate the `CHANGELOG.md` file update;
+
+For more information, please check [`np` documentation](https://github.com/sindresorhus/np#readme) to check all the NPM events that are triggered.
+
+
 ## Author
 
 **Wilson Mendes (willmendesneto)**
