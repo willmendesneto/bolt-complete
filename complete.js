@@ -52,6 +52,7 @@ boltComplete.on('bolt', function(data, done) {
     default:
       command = [
         { name: 'help', description: 'View Bolt\'s help content' },
+        { name: 'start', description: 'Start the server for a specific project' },
         { name: 'init', description: 'Create a new Bolt package in the current directory' },
         { name: 'install', description: 'Install all the dependencies for a project' },
         { name: 'add', description: 'Add a dependency' },
