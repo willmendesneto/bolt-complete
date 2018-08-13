@@ -2,7 +2,7 @@
 
 > Improving the dev experience using `bolt` in your CLI 😎
 
-A [tabtab](tabtab) plugin to implement bash / zsh / fish completion to [Bolt](bolt)
+A [tabtab](https://github.com/mklabs/node-tabtab) plugin to implement bash / zsh / fish completion to [Bolt](https://boltpkg.com)
 
 
 ## Install
@@ -21,9 +21,6 @@ script:
 - Choose a system-wide directory for global installation: /etc/bash_completion.d, /usr/local/share/zsh/site-functions or ~/.config/fish/completions
 
 Since it's based on `tabtab` NPM package, it will be installed automatically in your `bash`, `fish` or `zsh` 🎉
-
-[bolt]: http://boltpkg.com
-[tabtab]: https://github.com/mklabs/node-tabtab
 
 
 ## Author
