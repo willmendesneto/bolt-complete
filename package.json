@@ -1,6 +1,6 @@
 {
   "name": "bolt-complete",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "bolt-complete - Improving the dev experience using Bolt in your CLI",
   "main": "index.js",
   "scripts": {

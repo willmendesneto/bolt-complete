@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][]
 
+## [1.0.3][] - 2018-08-13
+
 ### Added
 - Adding unit tests
 - Adding code coverage integration
@@ -17,3 +19,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Updated
 - Adding new lock file
+
+
+[Unreleased]: https://github.com/willmendesneto/bolt-complete/compare/v1.0.3...HEAD
+[1.0.3]: https://github.com/willmendesneto/bolt-complete/tree/v1.0.3
