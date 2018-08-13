@@ -13,3 +13,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Fixed
 - Solving editor config check for `index.js`
+- Running unit and editorconfig checks on Circle CI

@@ -40,11 +40,14 @@ workflows:
             - unit_test:
                 requires:
                     - build
+            - editorconfig_check:
+                requires:
+                    - build
 jobs:
     build:
         <<: *docker_defaults
         <<: *install_steps
-    unit_test:
+    editorconfig_check:
         <<: *docker_defaults
         steps:
             - *attach_workspace
